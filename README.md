@@ -19,11 +19,10 @@ Use Math.round(result * 1000f) / 1000f to round to 3 decimal places
 Return both values in an ArrayList
 
 💻 Java Code
-import java.util.*;
 
+import java.util.*;
 class Solution {
     static ArrayList<Float> divisionWithPrecision(float a, float b) {
-        
         ArrayList<Float> list = new ArrayList<>();
         
         float result = a / b;
