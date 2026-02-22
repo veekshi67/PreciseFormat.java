@@ -20,21 +20,6 @@ Return both values in an ArrayList
 
 💻 Java Code
 
-import java.util.*;
-class Solution {
-    static ArrayList<Float> divisionWithPrecision(float a, float b) {
-        ArrayList<Float> list = new ArrayList<>();
-        
-        float result = a / b;
-        
-        list.add(result);
-        
-        float rounded = Math.round(result * 1000f) / 1000f;
-        list.add(rounded);
-        
-        return list;
-    }
-}
 🧪 Example
 
 Input:
@@ -45,6 +30,8 @@ b = 4.0
 Output:
 
 [2.5, 2.500]
+
+
 🚀 Concepts Used
 
 Floating point division
